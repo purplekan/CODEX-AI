@@ -83,7 +83,7 @@ Tu peux augmenter les performances en enrichissant dataset.jsonl avec plus de ca
 {"input": "list index out of range", "output": "check_list_index"}
 ```
 
-🔧 Conseils pour de meilleurs résultats
+## 🔧 Conseils pour de meilleurs résultats
 - Entraîne sur un nombre plus grand d’exemples
 - Augmente num_train_epochs dans TrainingArguments
 - Utilise num_beams, temperature, et repetition_penalty pour des prédictions plus précises
@@ -105,7 +105,7 @@ Ce projet est sous licence **MIT**.
 ## 🧠 À propos
 
 Ce projet a été co-développé par [purplekan](https://github.com/purplekan) et son copilote IA ChatGPT 🤝
- Dans une vision partagée : **entraîner, tester, progresser.**
+ dans une vision partagée : **entraîner, tester, progresser.**
 
 ------
 
