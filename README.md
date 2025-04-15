@@ -89,18 +89,27 @@ Tu peux augmenter les performances en enrichissant dataset.jsonl avec plus de ca
 - Utilise num_beams, temperature, et repetition_penalty pour des prédictions plus précises
 
 ## 📚 Ressources utilisées
-🤗 [HuggingFace Transformers]([url](https://github.com/huggingface/transformers))
-🧠 Modèle t5-small
-🔍 Fine-tuning basé sur Trainer + Datasets  
+
+- 🤗 [HuggingFace Transformers](https://github.com/huggingface/transformers)
+- 🧠 Modèle `t5-small`
+- 🔍 Fine-tuning basé sur `Trainer` + `Datasets`
+
+------
 
 ## 🛡️ Licence
-Ce projet est sous licence MIT.
+
+Ce projet est sous licence **MIT**.
+
+------
 
 ## 🧠 À propos
-Ce projet a été co-développé par purplekan et son copilote IA ChatGPT 🤝
-Dans une vision partagée : entraîner, tester, progresser.
 
-"Ce projet est la première pierre d’un édifice plus grand : des IA collaboratives, spécialisées, et redoutables."
+Ce projet a été co-développé par [purplekan](https://github.com/purplekan) et son copilote IA ChatGPT 🤝
+ Dans une vision partagée : **entraîner, tester, progresser.**
+
+------
+
+> "Ce projet est la première pierre d’un édifice plus grand : des IA collaboratives, spécialisées, et redoutables."
 
 
 
