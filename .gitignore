@@ -172,3 +172,17 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Exclure les modèles et checkpoints lourds
+debug_model/
+final_model/
+final_model_2/
+final_model_3/
+*.safetensors
+*.pt
+*.bin
+*.jsonl
+*.csv
+
+# Fichiers PyCharm
+.idea/
