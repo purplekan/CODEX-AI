@@ -23,4 +23,4 @@ Créer un **assistant IA intelligent** capable d’identifier le type d’erreur
 ---
 
 ## 📂 Structure du projet
-
+CODEX-AI/ ├── train_model.py # Script d'entraînement du modèle ├── test_model.py # Script de test des prédictions ├── dataset.jsonl # Données d'entraînement (erreurs et actions) ├── debug_model/ # Répertoire contenant les checkpoints entraînés │ └── checkpoint-xxx/ # Derniers poids enregistrés └── README.md # Ce fichier de documentation
