@@ -77,8 +77,30 @@ Cela :
 Tu peux augmenter les performances en enrichissant dataset.jsonl avec plus de cas.
 
 ## 📈 Exemple de données d'entraînement (dataset.jsonl)
+```json
+{"input": "function not defined", "output": "define_function"}
+{"input": "missing colon in function definition", "output": "add_colon_to_function"}
+{"input": "list index out of range", "output": "check_list_index"}
+```
 
+🔧 Conseils pour de meilleurs résultats
+- Entraîne sur un nombre plus grand d’exemples
+- Augmente num_train_epochs dans TrainingArguments
+- Utilise num_beams, temperature, et repetition_penalty pour des prédictions plus précises
 
+## 📚 Ressources utilisées
+🤗 [HuggingFace Transformers]([url](https://github.com/huggingface/transformers))
+🧠 Modèle t5-small
+🔍 Fine-tuning basé sur Trainer + Datasets  
+
+## 🛡️ Licence
+Ce projet est sous licence MIT.
+
+## 🧠 À propos
+Ce projet a été co-développé par purplekan et son copilote IA ChatGPT 🤝
+Dans une vision partagée : entraîner, tester, progresser.
+
+"Ce projet est la première pierre d’un édifice plus grand : des IA collaboratives, spécialisées, et redoutables."
 
 
 
