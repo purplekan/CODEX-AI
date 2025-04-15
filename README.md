@@ -24,3 +24,69 @@ Créer un **assistant IA intelligent** capable d’identifier le type d’erreur
 
 ## 📂 Structure du projet
 CODEX-AI/ ├── train_model.py # Script d'entraînement du modèle ├── test_model.py # Script de test des prédictions ├── dataset.jsonl # Données d'entraînement (erreurs et actions) ├── debug_model/ # Répertoire contenant les checkpoints entraînés │ └── checkpoint-xxx/ # Derniers poids enregistrés └── README.md # Ce fichier de documentation
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone ce dépôt :
+```bash
+git clone https://github.com/purplekan/CODEX-AI.git
+cd CODEX-AI
+```
+### 2. Crée un environnement virtuel :
+```bash
+python -m venv .venv
+# Sur Windows :
+.venv\Scripts\activate
+# Sur Mac/Linux :
+source .venv/bin/activate
+```
+### 3. Installe les dépendances
+
+Installe les dépendances :
+
+```bash
+pip install -r requirements.txt
+```
+Si requirements.txt n’existe pas encore, tu peux installer manuellement :
+
+```bash
+pip install transformers datasets
+```
+
+## 🧪 Tester le modèle
+```bash
+python test_model.py
+```
+Le script affiche :
+- 🔍 L’entrée (ex. : "function not defined")
+- ✅ La sortie attendue (ex. : define_function)
+- 🔮 La prédiction du modèle
+- ✔️ Ou ❌ selon la correspondance
+
+## 🧠 Entraîner le modèle
+```bash
+python train_model.py
+```
+Cela :
+- Charge les données depuis dataset.jsonl
+- Entraîne le modèle T5
+- Sauvegarde les checkpoints dans debug_model/
+
+Tu peux augmenter les performances en enrichissant dataset.jsonl avec plus de cas.
+
+## 📈 Exemple de données d'entraînement (dataset.jsonl)
+
+
+
+
+
+
+
+
+
+
+
+
+
